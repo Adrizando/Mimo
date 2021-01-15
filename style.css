@@ -1,16 +1,18 @@
 
-body { background-color: coral;
-   color: black;
-margin: 0;}
+@@import "url(http://fonts.googleapis.com/css?family=Montserrat:400,700)";
 
-.header { display: block; float: left;
+body {
+margin: 0;
+color: #555555; font-family: "Montserrat", sans-serif;}
+
+#header { display: block; float: left;
 font-weight: bold; font-size: 20px;}
 
 .top { display: block; float: left; }
 .top a{ color: white, text-decoration: none;
 text-transform: uppercase;
 letter-spacing: 0.1em;}
-.top a:hover { color: #222; }
+.top a:hover { color: #222222; }
 
 .nav { display: block; float: right; margin-top: 0;
 line-height: 150px}
@@ -33,14 +35,20 @@ vertical-align: top;}
 margin: 0 auto;: }
 
 
-span { background-color: yellow;
-border: 5px solid, orange;}
+.post, .about-content { max-width: 800px;
+margin: 0 auto;
+padding: 60px 0}
 
-div.post { background-color: lightgray;
-  border-radius: 10px; margin: 50px 50px 50px 50px; text-align: justify}
+.post-author img { width: 10rem; border-radius: 50%;
+vertical-align: middle;}
+.post-author span {margin-left: 16px; text-align: center;}
+.post-date { color: #D2D2D2;
+font-size: 14px; font-weight: bold; text-transform: uppercase;
+letter-spacing: 0.1em }
+h3 { color: lightblue}
 
+p { line-height: 1.5}
 
-
-div.top { background-color: lightblue; }
-
+.post-content {color: darkgreen;}
 .post-date {  color: darkgray;}
+.about-content {  text-align: center}
