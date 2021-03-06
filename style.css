@@ -43,9 +43,8 @@ section {
 .card {
   height: 140px;
   width: 350px;
-  background-color: rgb(90, 182, 151);
 }
-img {
+.pic {
   position: absolute;
   height: 96px;
   width: 96px;
